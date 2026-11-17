@@ -76,7 +76,7 @@ CREATE DATABASE ata_customer;
 
 Default credentials used in `application.yml`:
 - Username: `postgres`
-- Password: `sam123`
+- Password: `your password`
 
 > Update credentials in each service's `application.yml` before running.
 
