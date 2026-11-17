@@ -8,6 +8,7 @@
         <groupId>com.ata</groupId>
         <artifactId>ata-vehicle-booking</artifactId>
         <version>1.0.0</version>
+        <relativePath>../pom.xml</relativePath>
     </parent>
 
     <artifactId>eureka-server</artifactId>
