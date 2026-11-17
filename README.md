@@ -193,10 +193,8 @@ For production, override these via environment variables or a config server:
 |----------|---------|-------------|
 | `SPRING_DATASOURCE_URL` | `jdbc:postgresql://localhost:5432/ata_*` | DB URL |
 | `SPRING_DATASOURCE_USERNAME` | `postgres` | DB user |
-| `SPRING_DATASOURCE_PASSWORD` | `sam123` | DB password |
+| `SPRING_DATASOURCE_PASSWORD` | `your password` | DB password |
 | `JWT_SECRET` | (see yml) | JWT signing key |
 | `EUREKA_CLIENT_SERVICEURL_DEFAULTZONE` | `http://eureka:eureka123@localhost:8761/eureka/` | Eureka URL |
 
-## License
 
-MIT
