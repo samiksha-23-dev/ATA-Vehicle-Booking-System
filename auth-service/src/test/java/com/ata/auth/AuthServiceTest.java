@@ -221,6 +221,6 @@ class AuthServiceTest {
 
     @Test
     void logout_doesNotThrow() {
-        assertDoesNotThrow(() -> authService.logout("test@example.com"));
+        assertDoesNotThrow(() -> authService.logout("test@example.com", "some-token"));
     }
 }
